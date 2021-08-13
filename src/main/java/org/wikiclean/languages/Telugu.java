@@ -15,10 +15,11 @@ public class Telugu extends Language {
   }
 
   private static final String CATEGORY_LINKS1 = "వర్గం";
+  private static final String CATEGORY_LINKS2 = "వర్గాలు";
 
   @Override
   protected List<Pattern> categoryLinkPatterns() {
-    return categoryLinkPatterns(English.CATEGORY_LINKS1, CATEGORY_LINKS1);
+    return categoryLinkPatterns(English.CATEGORY_LINKS1, CATEGORY_LINKS1, CATEGORY_LINKS2);
   }
 
 }
